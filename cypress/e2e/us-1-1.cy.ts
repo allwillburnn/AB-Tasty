@@ -8,7 +8,7 @@ describe("US-1-1", () => {
 
     it("Im properly logged in with a valid email and password (+MFA) for all cases", () => {
         helpers.typeTextIntoField(loginPage.emailField, "test@gmail.com");
-        helpers.typeTextIntoField(loginPage.emailField, "qwe123");
+        helpers.typeTextIntoField(loginPage.passwordField, "qwe123");
         helpers.clickOnElement(loginPage.signInButton);
         // No further steps due not having a valid account with MFA
     });

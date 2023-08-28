@@ -9,4 +9,5 @@ export default defineConfig({
     },
     watchForFileChanges: false,
     defaultCommandTimeout: 10000,
+    video: false,
 });
